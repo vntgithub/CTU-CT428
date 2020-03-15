@@ -1,0 +1,38 @@
+.container{
+	justify-content: center;
+	line-height: 5px;
+	position: relative;
+}
+.information{
+	margin-left: 30px;
+	color: #777;
+}
+.info1{
+	position: absolute;
+	top: 30px;
+	color: #555;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.info2{
+	position: absolute;
+	bottom: 5px;
+}
+.avatar-img {
+	border-radius: 50%;
+	border: 1px;
+	width: 300px;
+	background-image: url('./avata.jpg');
+	width: 150px;
+	height: 150px;
+	background-size: contain;
+
+}
+.container{
+	display: flex;
+}
+.name{
+
+	
+}

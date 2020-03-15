@@ -1,14 +1,32 @@
+
+body{
+	background: #FAFAFA;
+}
+
+
+.header{
+	border-bottom: 5px;
+	margin-bottom: 15px;
+	display: block;
+	background-color: #FFF;
+	height: 54px;
+}
 .container{
-	justify-content: center;
-	line-height: 5px;
+	padding-left: 100px; 
 	position: relative;
+	height: 300px;
+	
+	align-items: center;
 }
 .information{
+	position: absolute;
+	left: 280px;
+	top: 80px;
 	margin-left: 30px;
 	color: #777;
 }
 .info1{
-	position: absolute;
+	
 	top: 30px;
 	color: #555;
 	font-size: 20px;
@@ -16,10 +34,17 @@
 
 }
 .info2{
-	position: absolute;
-	bottom: 5px;
+	
+	bottom: 150px;
+	height: 55px;
+}
+.item-info2{
+	
+	margin: 7px;
 }
 .avatar-img {
+
+	position: relative;
 	border-radius: 50%;
 	border: 1px;
 	width: 300px;
@@ -32,7 +57,10 @@
 .container{
 	display: flex;
 }
-.name{
-
-	
+.table-img {
+	display: flex;
+	justify-content: center;
+}
+.table-img table{
+	border: 5px;
 }

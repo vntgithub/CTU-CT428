@@ -1,25 +1,39 @@
 
+
 body{
 	background: #FAFAFA;
+	font-family: sans-serif;
 }
-
-
+.material-icons.md-48 { 
+	font-size: 48px; 
+	color: #555;
+}
+.hr{
+	padding: 0px;
+	margin: 0px;
+}
 .header{
-	border-bottom: 5px;
-	margin-bottom: 15px;
-	display: block;
+	align-items: flex-end;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
 	background-color: #FFF;
 	height: 54px;
 }
+.title{
+	font-weight: bold;
+	font-size: 30px;
+	color: #555;
+}
+
 .container{
 	padding-left: 100px; 
 	position: relative;
 	height: 300px;
-	
+	justify-content: center;
 	align-items: center;
 }
 .information{
-	position: absolute;
 	left: 280px;
 	top: 80px;
 	margin-left: 30px;
@@ -61,6 +75,21 @@ body{
 	display: flex;
 	justify-content: center;
 }
-.table-img table{
-	border: 5px;
+
+
+
+.material-icons.md-60 { 
+	font-size: 60px; 
+	color: #555;
 }
+.footer{
+	display: flex;
+	border-bottom: 5px;
+	margin-bottom: 15px;
+	display: block;
+	height: 54px;
+}
+.dropdown-menu{
+}
+.hr2{
+	

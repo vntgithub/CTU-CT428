@@ -91,5 +91,24 @@ body{
 }
 .dropdown-menu{
 }
-.hr2{
-	
+
+.Pageup {
+	display: flex;
+	justify-content: center;
+	padding: 15px 0;
+	margin: 15px 0;
+}
+
+.button a{
+	color: #888;
+	display: block;
+	padding: 5px 15px;
+	border: 2px solid #888;
+	border-radius: 5px;
+}
+.button a:hover{
+	text-decoration: none;
+	background: #777;
+	color: #FFF;
+
+}

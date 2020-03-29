@@ -43,6 +43,9 @@
 	background: #92bbd6;
 	padding: 5px;
 }
+#menu li:hover{
+	background: pink;
+}
 #content{
 	width: 800px;
 	float: right;
